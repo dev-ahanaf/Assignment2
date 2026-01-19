@@ -7,7 +7,10 @@
 }
 
 
-
+.header{
+  background-color: #1A0B2E;
+  width: 100%;
+}
 
 .container {
     background-color: #1A0B2E;
