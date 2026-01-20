@@ -117,15 +117,11 @@
 
 
 .mic-wrapper {
+  background: url("../assets/hero-circle.png") center/cover no-repeat;
   position: relative;
   width: 340px;
   height: 340px;
   border-radius: 50%;
-  background: linear-gradient(70deg,
-      #F7E93F 0%,
-      #FB09B4 51%,
-      #9100F8 100%);
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -642,8 +638,8 @@
   }
 
   .hero-buttons a {
-    justify-content: center;
-    padding: 10px 16px;
+    justify-content: center  !important;
+    padding: 10px 16px !important;
   }
 
   /* ABOUT */
