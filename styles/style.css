@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
 
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto; 
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -700,16 +705,25 @@
   }
 
   /* FOOTER */
-  .footer {
-    height: auto;
+   .footer {
+    min-height: auto; 
     padding: 80px 20px;
+    background-position: center top; 
   }
 
   .footer-container h1 {
-    font-size: 34px;
+    font-size: 32px;
+    line-height: 1.2;
   }
 
   .footer-icon {
-    gap: 15px;
+    display: grid;                  
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;                      
+    justify-items: center;        
+  }
+
+  .footer-icon p {
+    font-size: 14px;
   }
 }
