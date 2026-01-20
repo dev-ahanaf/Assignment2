@@ -1,10 +1,11 @@
 @import "tailwindcss";
 
 
-.font-inter {
+.font-open-sans {
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto; 
+  font-optical-sizing: auto;
 }
+
 
 * {
   margin: 0;
@@ -642,8 +643,8 @@
 
   .hero-buttons a {
     justify-content: center;
+    padding: 10px 16px;
   }
-
 
   /* ABOUT */
   .about h2 {
